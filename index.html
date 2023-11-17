@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KPIs UI Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ult">
+    <div style="display: block;">
+      <button class="new">Add New</button>
+    </div>
+    <div class="main">
+  
+      <div class="one">
+        <p>KPI Name<span>*</span></p>
+  
+        <input class="input" type="text" name="KPI Name" placeholder="Type KPI name here" required>
+    
+        <p>Associated  Objective<span>*</span></p>
+        <input class="input" type="text" name="Associated Objective" required>
+      
+  
+       
+      </div>
+  
+  
+  
+  
+      <div class="two">
+        
+        <p style="margin-bottom: 0px; margin-left: 25px;">KPI Value<span>*</span></p>
+  
+        <div class="sans">
+          <p class="number" style="color: rgb(152, 150, 150); font-weight:lighter; margin-top: 0px; font-size: small;">Number</p>
+        <input class="value" type="number" style="width: 40px;">
+        </div>
+  
+        <div class="sans">
+          <p class="unit" style="color: rgb(152, 150, 150); font-weight:lighter; margin-top: 0px; font-size: small">Unit</p>
+        <input class="value" type="number" style="width: 60px;">
+        </div>
+        
+        <div class="sans">
+          <p class="frequency" style="color: rgb(152, 150, 150); font-weight:lighter; margin-top: 0px; font-size: small">Frequency</p>
+        <input class="value" type="number" style="width: 100px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="button">
+    <button class="cancel">
+      Cancel
+    </button>
+
+    <button class="template">
+      Save as Template
+    </button>
+
+    <button class="draft">
+      Save as Draft
+    </button>
+
+    <button class="kpi">
+      Assign KPI
+    </button>
+  </div>
+  
+</body>
+</html>

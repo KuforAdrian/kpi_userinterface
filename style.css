@@ -1,0 +1,146 @@
+.one, .two{
+ /* border: 1px solid black; */
+  width: 600px;
+  height: 400px;
+  margin-top: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.two{
+  width: 508px;
+}
+
+.main{
+  display: flex;
+  margin: 5px;
+}
+
+.input{
+  width: 525px;
+  height: 46px;
+  border: 1px solid rgb(171, 169, 169);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+
+input::placeholder{
+  font-style: italic;
+  font-size: 17px;
+  color: rgb(226, 226, 226);
+}
+
+p{
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.sans{
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 25px;
+  /* border: 1px solid black;*/
+}
+
+.value{
+  width: 50px;
+  height: 25px;
+  border: 1px solid rgb(171, 169, 169);
+  border-radius: 5px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 17px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+span{
+  color: red;
+  border: 1px solid rgb(171, 169, 169);
+}
+
+.button{
+  margin-top: 70px;
+  margin-left: 752px;
+  display: flex;
+}
+
+.cancel{
+  background-color: transparent;
+  color: #0e3480;
+  font-family: sans-serif;
+  height: 40px;
+  width: 100px;
+  font-weight: 600;
+  /* margin-top: 70px; */
+  margin-right: 25px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancel:hover{
+  background-color: #0e3480;
+  cursor: pointer;
+  color: white;
+}
+
+.template, .draft{
+  height:40px;
+  width: 150px;
+  color: #0e3480;
+  border: 1px solid #0e3480;
+  border-radius: 5px;
+  margin-right:25px;
+  font-weight: 600;
+}
+
+.template:hover, .draft:hover{
+  cursor: pointer;
+  background-color: #0e3480;
+  color: white;
+}
+
+.kpi{
+  background-color: #0e3480;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border: 1px solid #0e3480;
+  border-radius: 5px;
+  margin-right: 0px;
+}
+
+.kpi:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #0e3480;
+}
+
+.new{
+  background-color: white;
+  height: 35px;
+  width: 80px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  /* margin-left: 1150px; */
+  margin-top: 20px;
+  margin-right: 25px;
+  float: right;
+}
+
+.ult{
+  border: 1px solid rgb(171, 169, 169);
+  border-radius: 10px;
+  width: 70%;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
